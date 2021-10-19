@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D69612CE271C6CD2009BD3BF /* FavoriteMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D69612CC271C6CD2009BD3BF /* FavoriteMovies.xcdatamodeld */; };
+		D6B4E41B271CC4640017AFFF /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4E41A271CC4640017AFFF /* WatchViewController.swift */; };
 		D6C63AD4270C432700B9D83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C63AD3270C432700B9D83F /* AppDelegate.swift */; };
 		D6C63AD6270C432700B9D83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C63AD5270C432700B9D83F /* SceneDelegate.swift */; };
 		D6C63AD8270C432700B9D83F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C63AD7270C432700B9D83F /* ViewController.swift */; };
 		D6C63ADB270C432700B9D83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C63AD9270C432700B9D83F /* Main.storyboard */; };
-		D6C63ADE270C432700B9D83F /* UITableViewSIM1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6C63ADC270C432700B9D83F /* UITableViewSIM1.xcdatamodeld */; };
 		D6C63AE0270C432800B9D83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C63ADF270C432800B9D83F /* Assets.xcassets */; };
 		D6C63AE3270C432800B9D83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C63AE1270C432800B9D83F /* LaunchScreen.storyboard */; };
+		D6C63AEC270C5FC300B9D83F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C63AEB270C5FC300B9D83F /* DetailsViewController.swift */; };
+		D6DB45382715957700D1BD1D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB45372715957700D1BD1D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D69612CD271C6CD2009BD3BF /* FavoriteMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteMovies.xcdatamodel; sourceTree = "<group>"; };
+		D6B4E41A271CC4640017AFFF /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
 		D6C63AD0270C432700B9D83F /* UITableViewSIM1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewSIM1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C63AD3270C432700B9D83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C63AD5270C432700B9D83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6C63AD7270C432700B9D83F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6C63ADA270C432700B9D83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6C63ADD270C432700B9D83F /* UITableViewSIM1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewSIM1.xcdatamodel; sourceTree = "<group>"; };
 		D6C63ADF270C432800B9D83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C63AE2270C432800B9D83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C63AE4270C432800B9D83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C63AEB270C5FC300B9D83F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D6DB45372715957700D1BD1D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,27 @@
 		D6C63AD2270C432700B9D83F /* UITableViewSIM1 */ = {
 			isa = PBXGroup;
 			children = (
+				D6C63AEA270C5F8D00B9D83F /* controller */,
 				D6C63AD3270C432700B9D83F /* AppDelegate.swift */,
 				D6C63AD5270C432700B9D83F /* SceneDelegate.swift */,
-				D6C63AD7270C432700B9D83F /* ViewController.swift */,
 				D6C63AD9270C432700B9D83F /* Main.storyboard */,
 				D6C63ADF270C432800B9D83F /* Assets.xcassets */,
 				D6C63AE1270C432800B9D83F /* LaunchScreen.storyboard */,
 				D6C63AE4270C432800B9D83F /* Info.plist */,
-				D6C63ADC270C432700B9D83F /* UITableViewSIM1.xcdatamodeld */,
+				D69612CC271C6CD2009BD3BF /* FavoriteMovies.xcdatamodeld */,
 			);
 			path = UITableViewSIM1;
+			sourceTree = "<group>";
+		};
+		D6C63AEA270C5F8D00B9D83F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6C63AD7270C432700B9D83F /* ViewController.swift */,
+				D6C63AEB270C5FC300B9D83F /* DetailsViewController.swift */,
+				D6DB45372715957700D1BD1D /* CollectionViewCell.swift */,
+				D6B4E41A271CC4640017AFFF /* WatchViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +159,11 @@
 			files = (
 				D6C63AD8270C432700B9D83F /* ViewController.swift in Sources */,
 				D6C63AD4270C432700B9D83F /* AppDelegate.swift in Sources */,
+				D69612CE271C6CD2009BD3BF /* FavoriteMovies.xcdatamodeld in Sources */,
+				D6DB45382715957700D1BD1D /* CollectionViewCell.swift in Sources */,
 				D6C63AD6270C432700B9D83F /* SceneDelegate.swift in Sources */,
-				D6C63ADE270C432700B9D83F /* UITableViewSIM1.xcdatamodeld in Sources */,
+				D6C63AEC270C5FC300B9D83F /* DetailsViewController.swift in Sources */,
+				D6B4E41B271CC4640017AFFF /* WatchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8LFKVJKW8;
 				INFOPLIST_FILE = UITableViewSIM1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R8LFKVJKW8;
 				INFOPLIST_FILE = UITableViewSIM1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,13 +369,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D6C63ADC270C432700B9D83F /* UITableViewSIM1.xcdatamodeld */ = {
+		D69612CC271C6CD2009BD3BF /* FavoriteMovies.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D6C63ADD270C432700B9D83F /* UITableViewSIM1.xcdatamodel */,
+				D69612CD271C6CD2009BD3BF /* FavoriteMovies.xcdatamodel */,
 			);
-			currentVersion = D6C63ADD270C432700B9D83F /* UITableViewSIM1.xcdatamodel */;
-			path = UITableViewSIM1.xcdatamodeld;
+			currentVersion = D69612CD271C6CD2009BD3BF /* FavoriteMovies.xcdatamodel */;
+			path = FavoriteMovies.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
